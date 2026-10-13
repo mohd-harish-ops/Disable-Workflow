@@ -6,7 +6,7 @@ on:
 
 jobs:
       disable:
-        runs-on: abuntu-latest
+        runs-on: ubuntu-latest
 
         steps:
           - name: Haris
