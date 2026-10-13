@@ -1,0 +1,13 @@
+name: Disable workflow
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+      disable:
+        runs-on: abuntu-latest
+
+        steps:
+          - name: Haris
+            run: echo "Disable my workflow"
